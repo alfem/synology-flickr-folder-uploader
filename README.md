@@ -9,7 +9,7 @@ So I cooked my own script, based in the work of  https://github.com/sybrenstuvel
 
 # Installation 
 
-I have tested these steps in my DS212j. This procedure probably work in many other models.
+I have tested these steps in my DS212j, but this procedure probably work in many other models.
 
 * Connect via SSH to your Synology NAS
 
@@ -21,7 +21,7 @@ I have tested these steps in my DS212j. This procedure probably work in many oth
 
 * Set python to use that folder
 
-export PYTHONPATH=/var/services/homes/admin/api
+  export PYTHONPATH=/var/services/homes/admin/api
 
 * Install the flickr api
 
@@ -41,8 +41,9 @@ export PYTHONPATH=/var/services/homes/admin/api
 
   ./flickr-folder-uploader.py /volume1/alfem/Pics/Coches/ coches
 
-  First parameter=Folder to upload
-  Second parameter=Tag for the photos 
+  First parameter = Folder to upload
+  
+  Second parameter = Tag for the photos 
 
 * On first run, the script will show an URL you need to visit in order to authorize it.Open the url in your brwoser, authorize the script and copy the code shown.   
 
