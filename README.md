@@ -27,9 +27,9 @@ I have tested these steps in my DS212j, but this procedure probably work in many
 
   easy_install  --install-dir=/var/services/homes/admin/api flickrapi
 
-* Download the script 
+* Download the script (use your favourite browser, or wget command in your Synology)
 
-  wget
+  wget https://raw.githubusercontent.com/alfem/synology-flickr-folder-uploader/master/flickr-folder-uploader.py
  
 * Give it execution permissions
 
